@@ -1,0 +1,25 @@
+==================================================
+dht lib
+==================================================
+= Copyright (c) Davide Gironi, 2012              =
+= http://davidegironi.blogspot.it/               =
+==================================================
+
+
+The DHT11/22 are a basic, low-cost digital temperature and humidity sensors.
+They uses a capacitive humidity sensor and a thermistor to measure the surrounding
+air, and spits out a digital signal on the data pin (no analog input pins needed).
+Compared to the DHT11, DHT22 is more precise, more accurate and works in a bigger
+range of temperature/humidity.
+This library use DHT11/22 sensor to read temperature and humidity on Atmega micro.
+Setup the data port connected to the micro pin in file dht.h
+
+
+Devel Notes
+-----------
+This library was developed on Eclipse, built with avr-gcc on Atmega8 @ 1MHz.
+
+
+License
+-------
+Please refer to LICENSE file for licensing information.
